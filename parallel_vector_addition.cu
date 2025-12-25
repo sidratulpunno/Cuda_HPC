@@ -2,7 +2,7 @@
 #include<cuda_runtime.h>
 
 
-#define SIZE 1024*32*1034
+#define SIZE 1024*32*1024
 
 
 __global__ void add(int* a, int* b, int* c,int N){
